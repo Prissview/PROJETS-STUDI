@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+/* Réinitialisation des styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* Réinitialisation des styles de liste */
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Styles pour les en-têtes h2 */
+h2 {
+  text-transform: capitalize;
+  padding-top: 10px;
+  font-size: medium;
+}
+
+/* Styles pour la navigation */
+nav {
+  overflow: hidden;
+  background-color: whitesmoke;
+  position: fixed;
+  width: 100%;
+}
+
+header li {
+  float: right;
+  font-size: medium;
+}
+
+header li a {
+  text-decoration-line: none;
+  display: flex;
+  padding: 20px 15px;
+}
+
+/* Styles pour le logo */
+#logo {
+  font-family: "Oxygen";
+  color: black;
+  font-weight: bolder;
+  float: left;
+}
+
+/* Styles pour l'image principale */
+#imageprincipale {
+  background: url("") fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 699px;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 3.5em;
+  padding-bottom: 10px;
+  padding-top: 250px;
+  margin-top: 10px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h3 {
+  text-transform: capitalize;
+  padding-top: 5px;
+  color: black;
+  font-size: medium;
+}
+
+/* Styles pour le contenu principal */
+#main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* formulaire de création de profil */
+.registration-form {
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 50px auto 560px;
+}
+
+#espace {
+  margin-bottom: 20px;
+}
+
+.registration-form h2 {
+  text-transform: capitalize;
+  font-size: 1.5em;
+  margin-bottom: 40px;
+  color: #3498db; /* Couleur du titre */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: Oxygen;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #217dbb;
+}
