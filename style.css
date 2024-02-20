@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+h2 {
+  text-transform: capitalize;
+  padding-top: 10px;
+  font-size: medium;
+}
+/* EN TETE  */
+nav {
+  overflow: hidden;
+  background-color: whitesmoke;
+  position: fixed;
+  width: 100%;
+}
+header li {
+  float: right;
+  font-size: medium;
+}
+header li a {
+  text-decoration-line: none;
+  display: flex;
+  padding: 20px 15px;
+}
+
+#logo {
+  font-family: "Oxygen";
+  color: black;
+  font-weight: bolder;
+  float: left;
+}
+
+/* image principale  */
+#imageprincipale {
+  background: url() fixed;
+  background-size: countain;
+  background-repeat: no-repeat;
+  height: 699px;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 3.5em;
+  padding-bottom: 10px;
+  padding-top: 250px;
+  margin-top: 10px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h3 {
+  text-transform: capitalize;
+  padding-top: 5px;
+  color: black;
+  font-size: medium;
+}
+
+/* texte de presentation */
+#textedepresentation {
+  background-color: whitesmoke;
+  padding: 0 20%;
+}
+
+/* menu des services */
+#menudesservices {
+  background-color: whitesmoke;
+  padding: 10px 0px 60px 0px;
+}
+
+/* les images */
+.imagecontainer {
+  text-align: center;
+  background-color: black;
+  padding: 20%;
+  margin-bottom: 20px;
+}
+
+.imagecontainer h4 {
+  font-family: Oxygen;
+  color: white;
+}
+
+.imagecontainer img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 0;
+}
+
+.imagecontainer img:hover {
+  transform: scale(1);
+  transition: 500ms;
+  opacity: 0.15;
+}
+
+/* avis client  */
+
+.avis-container {
+  max-width: 600px;
+  min-height: 400px;
+  margin: 40px auto 40px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.avis-item {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: whitesmoke;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  width: 900px;
+}
+
+input,
+textarea,
+button {
+  padding: 12px;
+  width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid whitesmoke;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:hover,
+textarea:hover {
+  border-color: #007bb5;
+}
+
+/* button style  */
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid whitesmoke;
+  color: black;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+button:hover {
+  background-color: #007bb5;
+}
