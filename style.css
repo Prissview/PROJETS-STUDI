@@ -20,15 +20,28 @@ li {
 h2 {
   text-transform: capitalize;
   padding-top: 10px;
+  padding-bottom: 20px;
   font-size: medium;
 }
 /* EN TETE  */
 nav {
   overflow: hidden;
-  background-color: whitesmoke;
-  position: fixed;
+  background: white;
+  position: sticky;
   width: 100%;
 }
+header {
+  background: url('backgrd.png') no-repeat center center fixed; 
+  background-size: cover;
+  height: 100vh; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
 header li {
   float: right;
   font-size: medium;
@@ -48,19 +61,18 @@ header li a {
 
 /* image principale  */
 #imageprincipale {
-  background: url() fixed;
-  background-size: countain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 699px;
+  height: 100%;
 }
 
 h1 {
   font-family: "Raleway", sans-serif;
   color: black;
-  font-size: 3.5em;
+  font-size: 2.5em;
   padding-bottom: 10px;
   padding-top: 250px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 h1 a {
@@ -70,9 +82,12 @@ h1 a {
 
 h3 {
   text-transform: capitalize;
-  padding-top: 5px;
+  padding-bottom: 10%;
   color: black;
   font-size: medium;
+}
+h4{
+font-size: 40px;
 }
 
 /* texte de presentation */
@@ -91,8 +106,8 @@ h3 {
 .imagecontainer {
   text-align: center;
   background-color: black;
-  padding: 20%;
-  margin-bottom: 20px;
+  padding: 10%;
+  margin-bottom: 10px;
 }
 
 .imagecontainer h4 {
@@ -101,7 +116,7 @@ h3 {
 }
 
 .imagecontainer img {
-  max-width: 100%;
+  max-width: 45%;
   height: auto;
   display: inline-block;
   margin: 0;
@@ -116,9 +131,9 @@ h3 {
 /* avis client  */
 
 .avis-container {
-  max-width: 600px;
+  max-width: 400px;
   min-height: 400px;
-  margin: 40px auto 40px;
+  margin: 10px auto 20px;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -128,6 +143,10 @@ h3 {
   border-bottom: 1px solid #ccc;
   margin-bottom: 10px;
   padding-bottom: 10px;
+}
+
+#horaires{
+  text-decoration-style: dotted;
 }
 
 /* Footer */
